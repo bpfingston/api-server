@@ -1,0 +1,32 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "test": "NODE_ENV=test jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpfingston/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpfingston/api-server/issues"
+  },
+  "homepage": "https://github.com/bpfingston/api-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "sequelize": "^6.7.0",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.6"
+  }
+}
